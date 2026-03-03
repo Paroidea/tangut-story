@@ -1,0 +1,10 @@
+{{- $l1 := .Get "line1" | default "" -}}
+{{- $l2 := .Get "line2" | default "" -}}
+{{- $l3 := .Get "line3" | default "" -}}
+<div class="tangut-highlight-shortcode">
+	<table role="presentation" aria-hidden="true">
+		<tr><td class="line1 tangut">{{ $l1 }}</td></tr>
+		<tr><td class="line2">{{ $l2 }}</td></tr>
+		<tr><td class="line3">{{ $l3 }}</td></tr>
+	</table>
+</div>
