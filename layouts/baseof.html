@@ -4,11 +4,6 @@
   {{ partial "docs/html-head" . }}
   {{ partial "docs/inject/head" . }}
 
-  {{/*  Noto Serif Tangut webfont  */}}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+Tangut&display=swap" rel="stylesheet">
-
   {{ $addon := resources.Get "css/addon.scss" | toCSS }}
   <link rel="stylesheet" href="{{ $addon.RelPermalink }}">
 </head>
