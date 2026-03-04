@@ -2,3 +2,8 @@ baseURL = 'https://example.org/'
 languageCode = 'zh-cn'
 title = '西夏文字的故事'
 theme = 'hugo-book'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
