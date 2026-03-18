@@ -39,6 +39,10 @@ weight: 1
 
 关于这个问题，后面还会再谈一次。接下来想先考虑一下文字的问题。
 
+{{< card image="/images/chapter-1/img_15_2.jpg" >}}
+川西走廊语言分布略图
+{{< /card >}}
+
 [^mi]: 译者注：原文为“ミ族”，不过译者没有找到汉语中对应的说法，因此根据“弥药族”译为“弥族”。对于将“弥药族”解释为“黑色的弥族”，后来也有研究质疑这一解释，参考[木仕华, 弭药(Mi-nyag)新考](https://kns.cnki.net/kcms2/article/abstract?v=iwDheDcO5w49UtvDMHWpMZqd-vQNRW0ExAieOHXWkfmcZyCxcLaA4-qsY_ru9fchS-wB2GODpRCaE_-zkLgrecORabKQEZPauFJOL9ntovK-LJod89A_w1uvVln8SXcUsxVUXIidqyEBl_dtKhSGicaCIN6K3jJA45U0jxmX3MBbspSUi0iA9w==&uniplatform=NZKPT&language=CHS)。
 
 [^木雅族]: 又称“弥药族”，现居于四川省康定、九龙、雅安一带。人口约一万五千人。其语言称为“木雅语”（mɯ55 nja55），又称“博巴语”（bo35-pa55）。在词汇方面，与藏语和羌语都有接近之处；在动词中则存在表示方向指示的词缀。一般认为属于藏缅语族的羌语支，并被纳入所谓“川西走廊语言”的一类。
