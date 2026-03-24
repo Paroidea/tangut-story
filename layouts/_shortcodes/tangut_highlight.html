@@ -1,10 +1,41 @@
-{{- $l1 := .Get "line1" | default "" -}}
-{{- $l2 := .Get "line2" | default "" -}}
-{{- $l3 := .Get "line3" | default "" -}}
+{{- $l1raw := .Get "line1" | default "" -}}
+{{- $l2raw := .Get "line2" | default "" -}}
+{{- $l3raw := .Get "line3" | default "" -}}
+{{- $title := .Get "title" | default "" -}}
+
+{{- $l1 := cond (ne $l1raw "") (split $l1raw ",") (slice) -}}
+{{- $l2 := cond (ne $l2raw "") (split $l2raw ",") (slice) -}}
+{{- $l3 := cond (ne $l3raw "") (split $l3raw ",") (slice) -}}
+
 <div class="tangut-highlight-shortcode">
-	<table role="presentation" aria-hidden="true">
-		<tr><td class="line1 tangut">{{ $l1 }}</td></tr>
-		<tr><td class="line2">{{ $l2 }}</td></tr>
-		<tr><td class="line3">{{ $l3 }}</td></tr>
-	</table>
+  <table role="presentation" aria-hidden="true">
+    {{- if ne $title "" }}
+      <caption class="table-title">{{ $title }}</caption>
+    {{- end }}
+    
+    {{- if gt (len $l1) 0 }}
+    <tr>
+      {{- range $l1 }}
+        <td class="line1 tangut">{{ . }}</td>
+      {{- end }}
+    </tr>
+    {{- end }}
+
+    {{- if gt (len $l2) 0 }}
+    <tr>
+      {{- range $l2 }}
+        <td class="line2">{{ . }}</td>
+      {{- end }}
+    </tr>
+    {{- end }}
+
+    {{- if gt (len $l3) 0 }}
+    <tr>
+      {{- range $l3 }}
+        <td class="line3">{{ . }}</td>
+      {{- end }}
+    </tr>
+    {{- end }}
+
+  </table>
 </div>
