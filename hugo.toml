@@ -1,4 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://paroidea.github.io/'
 languageCode = 'zh-cn'
 title = '西夏文字的故事'
 theme = 'hugo-book'
@@ -7,3 +7,7 @@ theme = 'hugo-book'
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
