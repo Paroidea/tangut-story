@@ -1,4 +1,4 @@
-baseURL = 'https://paroidea.github.io/'
+baseURL = 'https://paroidea.github.io/tangut-story'
 languageCode = 'zh-cn'
 title = '西夏文字的故事'
 theme = 'hugo-book'
