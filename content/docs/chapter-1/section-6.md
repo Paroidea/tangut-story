@@ -14,7 +14,7 @@ weight: 1
 # 6. 西夏文字圈的诞生与表意文字的使用
 
 
-{{< card image="/images/chapter-1/img_16.jpg" >}}
+{{< card image="images/chapter-1/img_16.jpg" >}}
 西夏王陵出土的石座
 {{< /card >}}
 
@@ -31,11 +31,11 @@ weight: 1
 当时，在与东部接邻的辽国，已经存在契丹文字[^契丹文字]。契丹文字包含把汉字字形简化而成的契丹大字，以及混杂了少量表意文字，主要以表音文字组合而成的契丹小字。契丹小字的组合方式，与十五世纪朝鲜李朝所创造的韩文[^韩文]组织方式非常类似。
 
 {{% columns class="book-columns" %}}
-- {{< card image="/images/chapter-1/img_17_1.jpg" >}}
+- {{< card image="images/chapter-1/img_17_1.jpg" >}}
   契丹大字
   {{< /card >}}
   
-- {{< card image="/images/chapter-1/img_17_2.jpg" >}}
+- {{< card image="images/chapter-1/img_17_2.jpg" >}}
   契丹小字
   {{< /card >}}
 {{% /columns %}}
@@ -45,11 +45,11 @@ weight: 1
 
 另一方面，在西夏建国之初，蒙古文字尚未出现，那时使用的是可以称为蒙古文字父亲的维吾尔文字[^维吾尔文字]，同时简单易使用的西藏文字[^藏文]也在广泛流传。为何西夏国没有使用那些文字，反而敢于仿照汉字建立了表意文字体系？这本书的目的就是解答这一问题。恐怕其他也有很多人都会对这一点感到疑惑。
 
-{{< card image="/images/chapter-1/img_18.jpg" >}}
+{{< card image="images/chapter-1/img_18.jpg" >}}
 维吾尔文字
 {{< /card >}}
 
-{{< card image="/images/chapter-1/img_19.jpg" >}}
+{{< card image="images/chapter-1/img_19.jpg" >}}
 西藏文字
 {{< /card >}}
 

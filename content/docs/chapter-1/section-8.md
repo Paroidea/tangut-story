@@ -19,11 +19,11 @@ weight: 1
 
 这一情况或许可以看作是跟纳西文字（摩梭文字）[^纳西文字]与纳西语口语、纳西语书面语的关系，或者是古代彝族文字（倮倮文字）[^彝文]相类似的情况。
 
-{{< card image="/images/chapter-1/img_22.jpg" >}}
+{{< card image="images/chapter-1/img_22.jpg" >}}
 纳西文字，上图为东巴文字，下图为哥巴文字
 {{< /card >}}
 
-{{< card image="/images/chapter-1/img_23.jpg" >}}
+{{< card image="images/chapter-1/img_23.jpg" >}}
 彝文
 {{< /card >}}
 

@@ -13,7 +13,7 @@ weight: 4
 
 # 4. 文字组成规则
 
-{{< card image="/images/chapter-2/img_41.jpg" >}}
+{{< card image="images/chapter-2/img_41.jpg" >}}
 《说文解字》
 {{< /card >}}
 
@@ -30,7 +30,7 @@ weight: 4
 
 西夏文字中存在少量的单体字，和大量将各种要素组合在一起得到的合体字，虽然这一点与汉字比较相似，但合体字中各个要素的字形的组合方式却从根本上就不一样。因此从这一点上来说，虽然西夏文字中有一些看上去会让人觉得它是不是在模仿汉字，但纵观全局，基本上都是独立创造出来的字形。
 
-{{< card image="/images/chapter-2/img_42.jpg" >}}
+{{< card image="images/chapter-2/img_42.jpg" >}}
 西夏文字练字本
 {{< /card >}}
 

@@ -13,7 +13,7 @@ weight: 3
 
 # 3. 西夏语的系统研究
 
-{{< card image="/images/chapter-2/img_39_1.jpg" >}}
+{{< card image="images/chapter-2/img_39_1.jpg" >}}
 草书体书写的西夏语翻译的《孝经》
 {{< /card >}}
 
@@ -23,7 +23,7 @@ weight: 3
 
 然而，语言的系统性问题，不能仅靠词汇比较来判断，而必须整体考察语言结构。对于西夏语来说，需要考虑以前面提到的弥药语等语言为中心的西番语群，但至今仍未形成决定性的研究结论。
 
-{{< card image="/images/chapter-2/img_39_2.jpg" >}}
+{{< card image="images/chapter-2/img_39_2.jpg" >}}
 铜牌
 {{< /card >}}
 
