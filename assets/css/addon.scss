@@ -29,7 +29,7 @@
     vertical-align: middle;
 }
 
-.tangut-highlight-shortcode .line1 {
+.tangut-highlight-shortcode .line1, .char {
     font-size: 2em;
     font-weight: 600;
     text-align: center;
@@ -39,4 +39,9 @@
 .tangut-highlight-shortcode .line3 {
     font-size: 1em;
     text-align: center;
+}
+
+img.char {
+    width: 2em;
+    height: auto;
 }
