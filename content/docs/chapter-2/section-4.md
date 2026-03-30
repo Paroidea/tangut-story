@@ -18,7 +18,7 @@ weight: 4
 {{< /card >}}
 
 首先，我想先把西夏文字的组成结构大致说明一下。简而言之，西夏文字是一种表意文字。它的字形中包含了这个文字所表达的含义。
-在大多数表意文字中，“山”都会写成类似“<img src=/images/chapter-2/mountain-bronze.png style="height: 1em;" />[^mountain-bronze]”的形状，每个字的形状都跟对应的事物的形状有关（象形[^六书]）；或是把“上”写成类似“<img src=/images/chapter-2/up-seal.png style="height: 1em;" />[^up-seal]”，把“下”写成类似“<img src=/images/chapter-2/down-seal.png style="height: 1em;" />[^down-seal]”的形状，把事物用抽象的写法进行表示（指事）。
+在大多数表意文字中，“山”都会写成类似“{{< image src="images/chapter-2/mountain-bronze.png"  class="char-small" >}}[^mountain-bronze]”的形状，每个字的形状都跟对应的事物的形状有关（象形[^六书]）；或是把“上”写成类似“{{< image src="images/chapter-2/up-seal.png" class="char-small" >}}[^up-seal]”，把“下”写成类似“{{< image src="images/chapter-2/down-seal.png" class="char-small" >}}[^down-seal]”的形状，把事物用抽象的写法进行表示（指事）。
 我们所使用的汉字当中最核心的部分，原本都是用这两种方法创造出来的。
 其次，为了表示语言中大量的含义（概念），只用那两种手段的话会需要大量的字符，对普通人来说非常难以记忆。
 因此，人们转而用已经创造出来的字形（单体字）组合成结合字形（合体字）的方法。比如说，从“山”可以创造出“仙”、“峰”（形声）、“岚”（会意）这些字。其中，“仙”与“峰”当中，文字的字形与其在语言中的发音相关，因此被称为形声字；而对于“岚”来说，是“山”的含义与“风”的含义结合起来，表现“山里面的风”的意思，因此被称为会意字。
