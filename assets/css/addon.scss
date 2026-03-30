@@ -19,7 +19,8 @@
 }
 
 .tangut-highlight-shortcode table {
-    width: 100%;
+    // width: 100%;
+    margin: 0 auto;
     border-collapse: collapse
 }
 
@@ -44,4 +45,12 @@
 img.char {
     width: 2em;
     height: auto;
+}
+
+img.char-small {
+    width: 1em;
+    height: auto;
+    font-size: 1em;
+    font-weight: 600;
+    text-align: center;
 }
