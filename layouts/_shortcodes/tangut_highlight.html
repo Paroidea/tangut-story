@@ -5,6 +5,12 @@
 {{- $l5raw := .Get "line5" | default "" | markdownify -}}
 {{- $l6raw := .Get "line6" | default "" | markdownify -}}
 {{- $title := .Get "title" | default "" | markdownify -}}
+{{- $cs1raw := .Get "cspan1" | default "1" -}}
+{{- $cs2raw := .Get "cspan2" | default "1" -}}
+{{- $cs3raw := .Get "cspan3" | default "1" -}}
+{{- $cs4raw := .Get "cspan4" | default "1" -}}
+{{- $cs5raw := .Get "cspan5" | default "1" -}}
+{{- $cs6raw := .Get "cspan6" | default "1" -}}
 
 {{- $l1 := cond (ne $l1raw "") (split $l1raw ",") (slice) -}}
 {{- $l2 := cond (ne $l2raw "") (split $l2raw ",") (slice) -}}
@@ -12,6 +18,12 @@
 {{- $l4 := cond (ne $l4raw "") (split $l4raw ",") (slice) -}}
 {{- $l5 := cond (ne $l5raw "") (split $l5raw ",") (slice) -}}
 {{- $l6 := cond (ne $l6raw "") (split $l6raw ",") (slice) -}}
+{{- $cs1 := cond (ne $cs1raw "") (split $cs1raw ",") (slice) -}}
+{{- $cs2 := cond (ne $cs2raw "") (split $cs2raw ",") (slice) -}}
+{{- $cs3 := cond (ne $cs3raw "") (split $cs3raw ",") (slice) -}}
+{{- $cs4 := cond (ne $cs4raw "") (split $cs4raw ",") (slice) -}}
+{{- $cs5 := cond (ne $cs5raw "") (split $cs5raw ",") (slice) -}}
+{{- $cs6 := cond (ne $cs6raw "") (split $cs6raw ",") (slice) -}}
 
 <div class="tangut-highlight-shortcode">
   <table role="presentation" aria-hidden="true">
@@ -21,48 +33,48 @@
     
     {{- if gt (len $l1) 0 }}
     <tr>
-      {{- range $l1 }}
-        <td class="line1 tangut">{{ . }}</td>
+      {{- range $index, $text := $l1 }}
+        <td class="line1 tangut" colspan="{{ if lt $index (len $cs1) }}{{ index $cs1 $index }}{{ else }}1{{ end }}">{{ $text }}</td>
       {{- end }}
     </tr>
     {{- end }}
 
     {{- if gt (len $l2) 0 }}
     <tr>
-      {{- range $l2 }}
-        <td class="line2">{{ . }}</td>
+      {{- range $index, $text := $l2 }}
+        <td class="line2" colspan="{{ if lt $index (len $cs2) }}{{ index $cs2 $index }}{{ else }}1{{ end }}">{{ $text }}</td>
       {{- end }}
     </tr>
     {{- end }}
 
     {{- if gt (len $l3) 0 }}
     <tr>
-      {{- range $l3 }}
-        <td class="line3">{{ . }}</td>
+      {{- range $index, $text := $l3 }}
+        <td class="line3" colspan="{{ if lt $index (len $cs3) }}{{ index $cs3 $index }}{{ else }}1{{ end }}">{{ $text }}</td>
       {{- end }}
     </tr>
     {{- end }}
 
     {{- if gt (len $l4) 0 }}
     <tr>
-      {{- range $l4 }}
-        <td class="line1 tangut">{{ . }}</td>
+      {{- range $index, $text := $l4 }}
+        <td class="line1 tangut" colspan="{{ if lt $index (len $cs4) }}{{ index $cs4 $index }}{{ else }}1{{ end }}">{{ $text }}</td>
       {{- end }}
     </tr>
     {{- end }}
 
     {{- if gt (len $l5) 0 }}
     <tr>
-      {{- range $l5 }}
-        <td class="line2">{{ . }}</td>
+      {{- range $index, $text := $l5 }}
+        <td class="line2" colspan="{{ if lt $index (len $cs5) }}{{ index $cs5 $index }}{{ else }}1{{ end }}">{{ $text }}</td>
       {{- end }}
     </tr>
     {{- end }}
 
     {{- if gt (len $l6) 0 }}
     <tr>
-      {{- range $l6 }}
-        <td class="line3">{{ . }}</td>
+      {{- range $index, $text := $l6 }}
+        <td class="line3" colspan="{{ if lt $index (len $cs6) }}{{ index $cs6 $index }}{{ else }}1{{ end }}">{{ $text }}</td>
       {{- end }}
     </tr>
     {{- end }}
