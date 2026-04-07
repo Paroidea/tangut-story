@@ -1,0 +1,7 @@
+{
+  "theme": "neutral",
+  "themeVariables": {
+    "fontFamily": "arial, sans-serif"
+  },
+  "themeCSS": ".tangut { font-size: 2em; font-family: \"Tagnut Yinchuan\", \"Noto Serif Tangut\"; }; .label foreignObject { overflow: visible; }; * { font-size: 100%; }"
+}
