@@ -54,3 +54,23 @@ img.char-small {
     font-weight: 600;
     text-align: center;
 }
+
+/* Figure in page */
+figure.book-figure {
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    display: grid;
+}
+
+figure.book-figure img {
+    height: 500px;
+    max-width: 90%;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+figure.book-figure figcaption {
+    text-align: center;
+    font-weight: bold;
+}

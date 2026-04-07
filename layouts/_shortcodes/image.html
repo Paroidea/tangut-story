@@ -3,8 +3,18 @@
   "attributes" (cond .IsNamedParams .Params dict)
   "keep" (slice "id" "class" "tabindex" "alt" "title" "loading")
 ) -}}
-<label class="book-image" for="book-image-toggle-{{ .Ordinal }}">
-  <input class="hidden toggle" type="checkbox" id="book-image-toggle-{{ .Ordinal }}" />
-  <img src="{{ $destination | relURL | safeURL }}" {{ partial "docs/html-attrs" $attributes | safeHTMLAttr }} />
-</label>
+{{- $usefig := .Get "usefigure" | default "no" -}}
+
+{{- if eq $usefig "no" }}
+  <label class="book-image" for="book-image-toggle-{{ .Ordinal }}">
+    <input class="hidden toggle" type="checkbox" id="book-image-toggle-{{ .Ordinal }}" />
+    <img src="{{ $destination | relURL | safeURL }}" {{ partial "docs/html-attrs" $attributes | safeHTMLAttr }} />
+  </label>
+{{- else }}
+  <figure class="book-figure">
+    <img src="{{ $destination | relURL | safeURL }}" {{ partial "docs/html-attrs" $attributes | safeHTMLAttr }} />
+    <figcaption>{{ .Get "title" | default "" | markdownify }}</figcaption>
+  </figure>
+{{- end }}
+
 {{- /* remove whitespaces */ -}}
