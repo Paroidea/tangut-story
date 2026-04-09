@@ -16,6 +16,8 @@
 /* For tangut highlight shortcode */
 .tangut-highlight-shortcode {
     margin: 0.5em 0;
+    justify-content: center;
+    display: grid;
 }
 
 .tangut-highlight-shortcode table {
@@ -43,8 +45,8 @@
 }
 
 img.char {
-    width: 2em;
-    height: auto;
+    width: auto;
+    height: 2em !important;
 }
 
 img.char-small {
@@ -56,21 +58,21 @@ img.char-small {
 }
 
 /* Figure in page */
-figure.book-figure {
+.book-figure {
     width: 100%;
-    height: 600px;
+    max-height: 600px;
     justify-content: center;
     display: grid;
 }
 
-figure.book-figure img {
+.book-figure > img {
     height: 500px;
     max-width: 90%;
     margin: 0 auto;
     object-fit: contain;
 }
 
-figure.book-figure figcaption {
+.book-figure > figcaption {
     text-align: center;
     font-weight: bold;
 }
