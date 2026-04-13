@@ -13,6 +13,10 @@
     font-family: "Tangut", monospace;
 }
 
+* {
+    font-family: sans-serif, serif, monospace, system-ui, "Tangut";
+}
+
 /* For tangut highlight shortcode */
 .tangut-highlight-shortcode {
     margin: 0.5em 0;
