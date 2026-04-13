@@ -26,6 +26,12 @@
     border-collapse: collapse
 }
 
+.tangut-highlight-shortcode table caption {
+    width: 100%;
+    display: block;
+    font-weight: bold;
+}
+
 .tangut-highlight-shortcode td {
     padding: .15em 0;
     text-align: center;
