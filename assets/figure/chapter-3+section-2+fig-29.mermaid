@@ -1,0 +1,17 @@
+flowchart TB
+    INV[ ]
+    INV ~~~ rotate["<span class=tangut>𗦪</span> <br/> 旋,卷,缩"]
+    rotate --> belly_stomach["<span class=tangut>𗏜𗏎</span> <br/> 腹肚"]
+    INV ~~~ empty["<span class=tangut>𗲠</span> <br/> 空"]
+    empty --> empty_stomach["<span class=tangut>𗠫</span> <br/> 空腹"]
+    INV ~~~ belly["<span class=tangut>𘀟</span> <br/> 腹"] --> stomach["<span class=tangut>𘀥</span> <br/> 胃"]
+    stomach --> hungry["<span class=tangut>𘀝</span> <br/> 饥"]
+    hungry --> full["<span class=tangut>𘀠</span> <br/> 饱"]
+    INV ~~~ full2
+    full2["<span class=tangut>𘏋</span> <br/> 满"] --> full
+    empty --> hungry
+
+    belly_stomach ~~~~~ exhaust["<span class=tangut>𗊇</span> <br/> 竭尽"] --> nothing["<span class=tangut>𗤋</span> <br/> 无"]
+    empty_stomach ~~~~ eager["<span class=tangut>𗠵</span> <br/> 渴"] --> nothing
+
+    style INV fill:#FFFFFF00, stroke:#FFFFFF00;
