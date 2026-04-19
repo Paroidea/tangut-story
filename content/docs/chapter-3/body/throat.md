@@ -13,11 +13,11 @@ weight: 10
 
 # 10. 咽喉
 
-{{< image src="images/chapter-3/throat-yan-seal.gif" title="汉字小篆“咽”" class="char" usefigure="yes" >}}
+{{< image src="images/chapter-3/throat-yan-seal.svg" title="汉字小篆“咽”" class="char" usefigure="yes" >}}
 
-{{< image src="images/chapter-3/throat-hou-seal.gif" title="汉字小篆“喉”" class="char" usefigure="yes" >}}
+{{< image src="images/chapter-3/throat-hou-seal.svg" title="汉字小篆“喉”" class="char" usefigure="yes" >}}
 
-汉字的“咽”和“喉”都是形声字，是由口字旁加上音符“因”或者“侯”组成的。
+汉字的“咽”和“喉”[^yanhou]都是形声字，是由口字旁加上音符“因”或者“侯”组成的。
 
 {{< tangut_highlight 
   line1="𘙴,𗍂,𗠛"
@@ -70,3 +70,5 @@ weight: 10
   line2="宝物,金银,珊瑚,琥珀,琉璃,玛瑙"
   title="西夏语小单词集 - 8"
 >}}
+
+[^yanhou]: WikiMedia上没有找到“咽”和“喉”小篆字体，此处所用图片来自[《汉典》](https://www.zdic.net/)。
