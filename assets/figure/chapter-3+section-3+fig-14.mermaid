@@ -1,0 +1,28 @@
+flowchart TB
+    INV[ ]
+    a["<span class=tangut>𘞌</span> <br/> 重"]
+    b["<span class=tangut>𗨭</span> <br/> 重（病）"]
+    c["<span class=tangut>𗽩</span> <br/> 涸"]
+    d["<span class=tangut>𘐶</span> <br/> 掷"]
+    h["<span class=tangut>𘆍</span> <br/> 平等"]
+    i["<span class=tangut>𘝧</span> <br/> 丞（长官）"]
+    j["<span class=tangut>𘏬</span> <br/> 秤"]
+    k["<span class=tangut>𗀼</span> <br/> 均"]
+    e["<span class=tangut>𗋭</span> <br/> 沉"]
+    f["<span class=tangut>𗝼</span> <br/> 沉（香）"]
+    g["<span class=tangut>𗌥</span> <br/> 滓"]
+    
+    INV ~~~ a
+    INV ~~~ h
+    a --> b
+    a --> c
+    a --> d
+    h --> i
+    h --> j
+    j --> k
+    a --> e
+    e --> f
+    e --> g
+
+    style INV fill:#FFFFFF00, stroke:#FFFFFF00;
+    
