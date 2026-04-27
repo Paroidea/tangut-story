@@ -27,7 +27,10 @@
 .tangut-highlight-shortcode table {
     // width: 100%;
     margin: 0 auto;
-    border-collapse: collapse
+    border-collapse: collapse;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .tangut-highlight-shortcode table caption {
