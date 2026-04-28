@@ -90,3 +90,8 @@ img.char-small {
     text-align: center;
     font-weight: bold;
 }
+
+// Adjust column minimum width, to allow more columns in a row
+.markdown .book-columns > ul > li {
+    min-width: 3rem !important;
+}
