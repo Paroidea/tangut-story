@@ -13,9 +13,7 @@ weight: 3
 
 # 3. 西夏语的系统研究
 
-{{< card image="images/chapter-2/img_39_1.jpg" >}}
-草书体书写的西夏语翻译的《孝经》
-{{< /card >}}
+{{< image src="images/chapter-2/img_39_1.jpg" title="草书体书写的西夏语翻译的《孝经》" usefigure="yes" >}}
 
 伊万诺夫对《掌中珠》的研究，经由博学的东方学者劳费尔[^Laufer]而引起人们的关注。他在非常早期就对西夏语的系统研究提出了重要的意见。劳费尔认为，西夏语应与倮倮语（彝语）、摩梭语（纳西语）同属一类语言群，并提出应将其称为“西摩倮语系”。
 
@@ -23,8 +21,6 @@ weight: 3
 
 然而，语言的系统性问题，不能仅靠词汇比较来判断，而必须整体考察语言结构。对于西夏语来说，需要考虑以前面提到的弥药语等语言为中心的西番语群，但至今仍未形成决定性的研究结论。
 
-{{< card image="images/chapter-2/img_39_2.jpg" >}}
-铜牌
-{{< /card >}}
+{{< image src="images/chapter-2/img_39_2.jpg" title="铜牌" usefigure="yes" >}}
 
 [^Laufer]: 译者注：应该指的是贝特霍尔德·劳费尔（Berthold Laufer），详情可参考[维基百科](https://zh.wikipedia.org/wiki/%E8%B4%9D%E7%89%B9%E9%9C%8D%E5%B0%94%E5%BE%B7%C2%B7%E5%8A%B3%E8%B4%B9%E5%B0%94)。

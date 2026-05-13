@@ -32,6 +32,4 @@ weight: 18
 
 到了下一章节，我将会对具有代表性的常用文字的字形进行分析，同时也会呈现相应的相关文字之间的关联。
 
-{{< card image="images/chapter-2/img_63.jpg" >}}
-石雕人头像（转载自1988年的《“敦煌-西夏王国展”图录》）
-{{< /card >}}
+{{< image src="images/chapter-2/img_63.jpg" title="石雕人头像（转载自1988年的《“敦煌-西夏王国展”图录》）" usefigure="yes" >}}

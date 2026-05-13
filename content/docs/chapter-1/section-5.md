@@ -21,9 +21,7 @@ weight: 1
 
 通过西夏文字传达下来的语言，是后来发展起来的书面语，其中既保存了古老语言的传承，也有口语的记录。因此，对这些不同形态进行评价是极为困难的。
 
-{{< card image="images/chapter-1/img_13.jpg" >}}
-西夏公园入口处的门匾（银川市内）
-{{< /card >}}
+{{< image src="images/chapter-1/img_13.jpg" title="西夏公园入口处的门匾（银川市内）" usefigure="yes" >}}
 
 七世纪中叶青海河曲地区的代表语言是安多藏语[^藏语安多方言]。在这种地区语言中，藏人把党项羌族所说的语言称为“弥药语”。即使在党项羌族向东北方向移动之后，直到建立西夏国，人们仍把这个民族称为“弥药族”，并把他们的语言称为“弥药语”。
 
@@ -31,17 +29,13 @@ weight: 1
 
 构成西夏王国的主要民族是“弥族”[^mi]和“弥药族”，后者可以解释为“黑色的弥族”。现在居住在四川省西北部的木雅族[^木雅族]，被认为与这一部族相同。它属于所谓川西走廊语言中的一种，从语言分类上说属于西番语系。现今的木雅语与西夏语并不完全一致，但相似之处很多。
 
-{{< card image="images/chapter-1/img_14.jpg" >}}
-游牧民居住的蒙古包（内蒙古自治区）
-{{< /card >}}
+{{< image src="images/chapter-1/img_14.jpg" title="游牧民居住的蒙古包（内蒙古自治区）" usefigure="yes" >}}
 
 作为一种书面语言发展起来的西夏语，与仅以口语形式传承的木雅语，在性质上自然有所不同。在西夏语中，还加入了一层来源不明的词汇层，这些词汇无法用木雅语及其邻近语言的形式来解释。
 
 关于这个问题，后面还会再谈一次。接下来想先考虑一下文字的问题。
 
-{{< card image="images/chapter-1/img_15_2.jpg" >}}
-川西走廊语言分布略图
-{{< /card >}}
+{{< image src="images/chapter-1/img_15_2.jpg" title="川西走廊语言分布略图" usefigure="yes" >}}
 
 [^mi]: 译者注：原文为“ミ族”，不过译者没有找到汉语中对应的说法，因此根据“弥药族”译为“弥族”。对于将“弥药族”解释为“黑色的弥族”，后来也有研究质疑这一解释，参考[木仕华, 弭药(Mi-nyag)新考](https://kns.cnki.net/kcms2/article/abstract?v=iwDheDcO5w49UtvDMHWpMZqd-vQNRW0ExAieOHXWkfmcZyCxcLaA4-qsY_ru9fchS-wB2GODpRCaE_-zkLgrecORabKQEZPauFJOL9ntovK-LJod89A_w1uvVln8SXcUsxVUXIidqyEBl_dtKhSGicaCIN6K3jJA45U0jxmX3MBbspSUi0iA9w==&uniplatform=NZKPT&language=CHS)。
 

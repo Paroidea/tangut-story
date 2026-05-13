@@ -19,13 +19,9 @@ weight: 1
 
 这一情况或许可以看作是跟纳西文字（摩梭文字）[^纳西文字]与纳西语口语、纳西语书面语的关系，或者是古代彝族文字（倮倮文字）[^彝文]相类似的情况。
 
-{{< card image="images/chapter-1/img_22.jpg" >}}
-纳西文字，上图为东巴文字，下图为哥巴文字
-{{< /card >}}
+{{< image src="images/chapter-1/img_22.jpg" title="纳西文字，上图为东巴文字，下图为哥巴文字" usefigure="yes" >}}
 
-{{< card image="images/chapter-1/img_23.jpg" >}}
-彝文
-{{< /card >}}
+{{< image src="images/chapter-1/img_23.jpg" title="彝文" usefigure="yes" >}}
 
 不管怎样，西夏文字的创造者在创作这一文字的时候，已经考虑到了这两个词汇层的问题。然而，关于这一点的记录或者描述却完全没有留下。甚至西夏语中存在两个词汇层的这一现象本身，也是最近我再研究西夏人的诗歌的时候才注意到的。
 

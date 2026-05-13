@@ -13,9 +13,7 @@ weight: 16
 
 # 16. 从“夜”、“看见”到“梦”
 
-{{< card image="images/chapter-2/img_59.jpg" >}}
-白瓷碗
-{{< /card >}}
+{{< image src="images/chapter-2/img_59.jpg" title="白瓷碗" usefigure="yes" >}}
 
 例如，从“夜”与“见”构成“梦”的构字方法，是将原字形的一部分省略，然后再加入其他要素（图25）。
 

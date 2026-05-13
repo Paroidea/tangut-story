@@ -13,15 +13,11 @@ weight: 1
 
 # 7. 西夏文字的数量与《同音》
 
-{{< card image="images/chapter-1/img_20.jpg" >}}
-韵书《文海》
-{{< /card >}}
+{{< image src="images/chapter-1/img_20.jpg" title="韵书《文海》" usefigure="yes" >}}
 
 至此，一个基本问题浮现出来，就是关于字数的问题：西夏文字总共有多少字。有本名为《同音》的发声字典，在统计了旧版、新版等若干版本的内容之后，人们发现总共记载了6133个字符（实际上，书中有些部分的文本还存在缺失）。几乎可以认为，这就是在其公布之时全部字数的大致情况。
 
-{{< card image="images/chapter-1/img_21.jpg" >}}
-韵书《同音》
-{{< /card >}}
+{{< image src="images/chapter-1/img_21.jpg" title="韵书《同音》" usefigure="yes" >}}
 
 然而，并不是所有字都在实际文本中被使用，因此也存在一些不知道是否被广泛使用的文字。在这些字之中，大约有一千字到一千五百字是常用字。
 

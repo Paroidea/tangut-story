@@ -13,9 +13,7 @@ weight: 4
 
 # 4. 文字组成规则
 
-{{< card image="images/chapter-2/img_41.jpg" >}}
-《说文解字》
-{{< /card >}}
+{{< image src="images/chapter-2/img_41.jpg" title="《说文解字》" usefigure="yes" >}}
 
 首先，我想先把西夏文字的组成结构大致说明一下。简而言之，西夏文字是一种表意文字。它的字形中包含了这个文字所表达的含义。
 在大多数表意文字中，“山”都会写成类似“{{< image src="images/chapter-2/mountain-bronze.png"  class="char-small" >}}[^mountain-bronze]”的形状，每个字的形状都跟对应的事物的形状有关（象形[^六书]）；或是把“上”写成类似“{{< image src="images/chapter-2/up-seal.png" class="char-small" >}}[^up-seal]”，把“下”写成类似“{{< image src="images/chapter-2/down-seal.png" class="char-small" >}}[^down-seal]”的形状，把事物用抽象的写法进行表示（指事）。
@@ -30,9 +28,7 @@ weight: 4
 
 西夏文字中存在少量的单体字，和大量将各种要素组合在一起得到的合体字，虽然这一点与汉字比较相似，但合体字中各个要素的字形的组合方式却从根本上就不一样。因此从这一点上来说，虽然西夏文字中有一些看上去会让人觉得它是不是在模仿汉字，但纵观全局，基本上都是独立创造出来的字形。
 
-{{< card image="images/chapter-2/img_42.jpg" >}}
-西夏文字练字本
-{{< /card >}}
+{{< image src="images/chapter-2/img_42.jpg" title="西夏文字练字本" usefigure="yes" >}}
 
 由于这些字形的创造方式反映了西夏人的思维方式，因此我对这一点非常地感兴趣。
 

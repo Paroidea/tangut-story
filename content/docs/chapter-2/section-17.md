@@ -31,6 +31,4 @@ weight: 17
 
 如果碰到难以判读的抄写本的话，要想正确判断里面的文字，就不得不理清整篇文章的脉络才行。
 
-{{< card image="images/chapter-2/img_61.jpg" >}}
-木缘塔
-{{< /card >}}
+{{< image src="images/chapter-2/img_61.jpg" title="木缘塔" usefigure="yes" >}}
